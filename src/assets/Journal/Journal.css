@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+* {
+	/* font-family: "Josefin Sans", cursive !important; */
+	padding: 0;
+	margin: 0;
+}
+
+.bg {
+	align-content: center;
+	align-items: center;
+	background-color: #e2e7e8;
+	display: flex;
+	flex: none;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	gap: 0px;
+	height: auto;
+	justify-content: flex-start;
+	overflow: hidden;
+	position: relative !important;
+	width: 100%;
+}
+.journal-box {
+	place-content: center flex-start;
+	display: flex;
+	flex-flow: column;
+	gap: 24px;
+	padding: 0px;
+	position: relative;
+	width: 100%;
+}
+.journal-box-img {
+	width: 100vw;
+	height: 30vh;
+	object-fit: cover;
+	display: block;
+	object-position: center;
+	image-rendering: auto;
+}
+.j-box-title {
+	font-family: "Josefin Sans", cursive !important;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 163%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+}
+.box-h3 {
+	font-family: "Spectral", serif;
+	font-size: 29px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0em;
+	line-height: 125%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+}
+.box-date {
+	font-family: "Spectral", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 163%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 2px;
+}
+
+/* main */
+
+#browsebg {
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+.browse-category {
+	background-color: white;
+}
+#cateh2 {
+	font-family: "Spectral", serif;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0em;
+	line-height: 125%;
+	text-align: center;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	margin-top: 3rem;
+}
+@media screen and (max-width: 767px) {
+	#cateh2 {
+		font-family: "Spectral", serif;
+		font-size: 29px;
+	}
+}
+.cate-box {
+	border: 1px solid #418a91;
+	font-family: "Josefin Sans", cursive !important;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.cate-box a{
+	color: #233f42;
+}
+
+
+
+#journalD-img {
+	/* width: 100%; */
+	width: 100vw;
+	object-fit: cover;
+	display: block;
+	object-position: center;
+	image-rendering: auto;
+}
+
+.journal-detail-text {
+	font-family: "Spectral", serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 170%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+}

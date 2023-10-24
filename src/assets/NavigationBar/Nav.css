@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+#nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 8vh;
+	background-color: transparent;
+	width: 100%;
+	position: fixed !important;
+	background-color: white;
+	/* border: 2px solid green; */
+	z-index: 50;
+}
+
+#Bcontainer {
+	padding-left: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.menu {
+	align-items: center;
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	background-color: transparent;
+}
+#nav li {
+	list-style-type: none;
+	width: auto;
+	font-weight: bold;
+}
+#nav a {
+	text-decoration: none;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	line-height: 125%;
+	text-align: start;
+	color: #355f63;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.2s ease-in-out;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#nav a.active-link{
+	background-color: rgb(215, 215, 215);
+}
+
+#nav a:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+
+#brandName {
+	text-decoration: none;
+	font-size: 96% !important;
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	line-height: 125%;
+	color: #355f63;
+}
+
+#icon {
+	font-weight: bolder;
+	display: none;
+}
+
+#btn {
+	display: none;
+	outline: none;
+	background-color: transparent;
+}
+@media screen and (max-width: 1072px) {
+	nav li {
+		line-height: 0cm;
+	}
+
+	#nav {
+		justify-content: space-between;
+		/* position: fixed; */
+	}
+
+	#btn {
+		display: block;
+		width: 1cm;
+		margin-right: 1.2rem;
+	}
+	.menu {
+		background-color: white;
+		width: 100% !important;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		margin-right: 1.5cm;
+		position: absolute;
+		top: 3.8rem;
+		height: auto;
+		padding-top: 2cm;
+		padding-bottom: 1cm;
+		transform: translateX(-150%);
+		transition: ease-in 0.1s;
+		color: #355f63;
+		border-top: 1px solid #355f63;
+	}
+
+	#nav a {
+		font-size: 100%;
+		color: #355f63;
+	}
+
+	.active {
+		transform: translateX(0%);
+	}
+}
+
+@media screen and (max-width: 1258px) {
+	#brandName {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#brandName {
+		font-size: 13px !important;
+	}
+	#Bcontainer {
+		padding-left: 1.rem;
+	}
+}
+
+@media screen and (max-width: 283px) {
+	#brandName {
+		font-size: 11px !important;
+	}
+}
+#mmenu {
+	right: 8rem;
+	/* width: 7rem !important; */
+	position: absolute;
+	width: auto;
+	background-color: white;
+}
+
+#burg {
+	color: #355f63;
+}

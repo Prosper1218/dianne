@@ -1,0 +1,15 @@
+#root {
+	max-width: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden !important;
+	height: auto;
+	width: 100%;
+}
+
+.cont {
+	border: 2px solid orange;
+}
+.author {
+	font-family: "Josefin Sans", cursive !important;
+}

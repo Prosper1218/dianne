@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#background {
+	align-items: center;
+	background-color: #e2e7e8;
+	gap: 0px;
+	justify-content: center;
+	padding-top: 1rem;
+	width: 100%;
+    position: relative;
+}
+
+
+
+.box {
+	border: 0.5px solid #418a91;
+	align-items: center;
+	place-content: center flex-start;
+	padding-top: 2rem !important;
+}
+.box:nth-child(2) {
+	border-right: none;
+}
+.box:nth-child(4) {
+	border-right: none;
+}
+
+.box:nth-child(8) {
+	border-left: none;
+}
+
+@media screen and (max-width: 1194px) {
+	.box:nth-child(4) {
+		border-right: 1px solid #355f63;
+		border-bottom: hidden;
+	}
+	.box:nth-child(2) {
+		border-bottom: hidden;
+	}
+}
+@media screen and (max-width: 768px) {
+	.box:nth-child(2) {
+		border-right: 1px solid #355f63;
+	}
+	.box:nth-child(6) {
+		border-bottom: hidden;
+	}
+	.box:nth-child(8) {
+		border-left: 0.5px solid #355f63;
+	}
+}
+
+.box h5 {
+	font-family: "Spectral", serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 125%;
+	text-align: center;
+	color: #1c3c3f;
+	padding-bottom: 1rem;
+}
+.box p {
+	font-family: "Josefin Sans", cursive !important;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 163%;
+	text-align: center;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	display: block;
+	padding: 10px 20px 20px 20px;
+}
+#h2-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;   
+    width: 100%;
+    top: 1.6rem;
+    
+}
+#background h2 {
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	line-height: 125%;
+	text-align: start;
+	color: #355f63;
+	text-decoration: none;
+	text-transform: uppercase;
+     padding: 5px 10px 3px 10px;
+    background-color: #e2e7e8 ;
+
+
+}

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+#mh2 {
+	font-family: "Spectral", serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0em;
+	line-height: 125%;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	margin: 0.7rem;
+}
+#tp {
+	font-family: "Josefin Sans", cursive !important;
+	font-size: small;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 163%;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	display: block;
+	position: relative;
+}
+.boxx {
+	border: 0.1px solid #418a91;
+	align-items: center;
+	place-content: center;
+	padding-top: 2rem !important;
+	padding-bottom: 2rem !important;
+	border-top: none;
+	border-left: none;
+}
+.boxx h5 {
+	font-family: "Spectral", serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 125%;
+	text-align: center;
+	color: #1c3c3f;
+	padding-bottom: 1rem;
+	padding-top: 1.5rem;
+}
+.boxx p {
+	font-family: "Josefin Sans", cursive !important;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 163%;
+	text-align: center;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	display: block;
+	padding: 10px 20px 20px 20px;
+}
+
+.Treatmentimg {
+	width: 69%;
+	height: 65%;
+	display: block;
+	object-position: center;
+	object-fit: cover;
+	image-rendering: auto;
+}
+
+@media screen and (max-width: 767px) {
+	.Treatmentimg {
+		width: 65%;
+		height: 80%;
+	}
+}
+
+#learnmorebtn {
+	color: black;
+	font-size: small;
+	font-family: "Josefin Sans", cursive !important;
+}
+
+#SABTN {
+	color: #233f42;
+	border: 0.2px solid #418a91;
+	font-family: "Josefin Sans", cursive !important;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0em;
+	align-items: center;
+	height: 3rem;
+	padding-top: 0.15rem;
+}
+/*  */
+#Mtbg {
+	background-color: #e2e7e8;
+	margin-bottom: 0px;
+}
+#faqs {
+	font-family: "Spectral", serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 125%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	text-transform: uppercase;
+}
+.containe-r {
+	border: 1px solid #418a91;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none;
+}
+#questi-on {
+	font-family: "Josefin Sans", cursive !important;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 163%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	align-items: center;
+}
+
+#answe-r {
+	font-family: "Josefin Sans", cursive !important;
+	border-top: 1.5px solid #418a91;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 163%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+	align-items: center;
+}
+
+.transit {
+	opacity: 1;
+	transition: opacity 0.5s, transform 0.5s;
+	transform: translateY(0);
+}
+.transit {
+	/* transform: translateY(-20px); */
+}

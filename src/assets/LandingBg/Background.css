@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+#darkbg {
+	width: 100% !important;
+	object-position: center;
+	object-fit: cover;
+	image-rendering: auto;
+}
+
+#estd {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	color: #355f63;
+	text-decoration: none;
+	text-transform: uppercase;
+	rotate: -90deg;
+	float: right;
+	/* position: absolute; */
+	top: 9rem;
+	/* right: 5.9rem; */
+}
+
+#picbg {
+	background-image: url("../../IMAGES/background.webp");
+	background-position: center;
+	object-fit: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: 0.1rem;
+}
+
+.dianneh {
+	width: 55%;
+	display: block;
+	margin-top: 3rem;
+	margin-right: 0.5rem;
+}
+
+.container {
+	align-items: flex-start;
+	display: flex;
+	flex: 1 0 0px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	gap: 20px;
+	height: min-content;
+	justify-content: flex-start;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 1px;
+}
+
+#text {
+	text-transform: uppercase;
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	line-height: 125%;
+	text-align: start;
+	color: #355f63;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+}
+
+#text::after {
+	content: "";
+	display: block;
+	width: 170px;
+	height: 1px;
+	background: #355f63;
+	right: 0;
+	top: 53%;
+	position: absolute;
+	left: 105%;
+}
+
+#dh1 {
+	font-family: "Spectral", serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	line-height: 125%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+	text-transform: none;
+}
+
+#desc{
+	font-family: "Josefin Sans", cursive !important;
+	font-size: 12px;
+	font-style: normal;
+	letter-spacing: 0em;
+	line-height: 163%;
+	text-align: start;
+	color: #233f42;
+	text-decoration: none;
+    text-transform: none;
+
+}
+
+@media screen and (max-width: 770px) {
+	.dianneh {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.dianneh {
+		width: 60%;
+	}
+	#dh1 {
+		font-size: 40px;
+	
+	}
+}
+
+@media screen and (max-width: 927px) {
+	.dianneh {
+		width: 70%;
+	}
+	#dh1 {
+		font-size: 38px;
+	
+	}
+}
+
+@media screen and (max-width: 828px) {
+	.dianneh {
+		width: 75%;
+	}
+	#dh1 {
+		font-size: 37px;
+		font-weight: 500;
+		letter-spacing: -0.02em;
+		line-height: 95%;
+	}
+	
+}
+
+

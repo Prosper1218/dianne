@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.section li {
+     font-style: normal;
+     font-weight:400;
+     color: black;
+     font-size: 12px;
+     text-decoration:  none;
+     line-height: 1.6em;
+     text-align: start;
+	font-family: "Josefin Sans", cursive !important;
+
+ 
+}
+
+.about-h2 {
+	color: #355f63;
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	line-height: 125%;
+	text-align: start;
+	text-decoration: none;
+	text-transform: uppercase;
+}

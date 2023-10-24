@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+* {
+	/* font-family: "Josefin Sans", cursive !important; */
+	padding: 0;
+	margin: 0;
+}
+#footer-background {
+	background-color: rgb(35, 63, 66);
+	width: 100%;
+	height:auto;
+	padding-bottom: 2rem;
+     
+}
+
+#FbrandName{
+	text-decoration: none;
+	font-size: 96% !important;
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	line-height: 125%;
+	color: white;
+}
+.fbox-h3 {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bolder;
+	letter-spacing: 0.2em;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+}
+.fli{
+	font-family: "Josefin Sans", cursive !important;
+	font-size: small;
+
+}
+/* align-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	gap: 0px;
+	height: min-content;
+	justify-content: center;
+	overflow: hidden;
+	padding: 64px 48px;
+	position: relative;
+	width: 1248px; */
