@@ -39,6 +39,7 @@ const Difference = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0 }}
                 transition={{ delay: 0.3, duration: 0.7 }}
+                viewport={{once:"true"}}
             >
                 <div id='h2-container'>   <h2>what makes me different</h2></div>
                 <Grid justify='center' className='px-6 sm:px-8 py-8'>

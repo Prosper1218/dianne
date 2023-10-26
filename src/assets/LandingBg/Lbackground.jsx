@@ -16,6 +16,7 @@ const Lbackground = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0 }}
                 transition={{ delay: 0.3, duration: 0.7 }}
+                viewport={{once:"true"}}
             >
                 <div style={{ display: "flex", justifyContent: "right", }} id='picbg'>
                     <img src={Dianne} alt="" className='dianneh rounded-t-full lg:-[60cm]' />

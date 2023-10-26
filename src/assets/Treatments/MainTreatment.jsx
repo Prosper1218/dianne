@@ -110,14 +110,12 @@ const Ans = ({ ans, question }) => {
                          {SeeMore ? <IconMinus /> : <IconPlus />}
                     </motion.button>
                </div>
-               <motion.div className='transit' 
-                    initial={{opacity:0 }}
-                    whileInView={{opacity:1 }}
-                    transition={{ stiffness: 300, duration:0.6 }}
+               <div className='transit' 
+                 
                >
                     <h2 id='answe-r'> {SeeMore ? ans : null}</h2>
 
-               </motion.div>
+               </div>
 
           </div>
      )

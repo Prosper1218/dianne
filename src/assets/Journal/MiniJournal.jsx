@@ -19,6 +19,7 @@ const MiniJournal = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0 }}
                     transition={{ delay: 0.3, duration: 0.7 }}
+                    viewport={{once:"true"}}
                >
                     <Intro heading="My Journal" />
                </motion.div>
@@ -30,6 +31,7 @@ const MiniJournal = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0 }}
                     transition={{ delay: 0.3, duration: 0.7 }}
+                    viewport={{once:'true'}}
                >
 
                     <div className='px-6 sm:px-12  py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-4 sm:gap-8 w-[100%]' >

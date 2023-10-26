@@ -17,6 +17,7 @@ const MiniTreatments = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0 }}
                     transition={{ delay: 0.2, duration: 0.7 }}
+                    viewport={{once:"true"}}
                >
                     <Intro heading="Treatments" />
                </motion.section>
@@ -26,8 +27,9 @@ const MiniTreatments = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0 }}
                     transition={{ delay: 0.3, duration: 0.7 }}
+                    viewport={{once:"true"}}
                >
-                    <Grid justify='center' className='px-1 py-8'>
+                    <Grid justify='center' className='px-1 pb-12'>
 
                          {
                               contents.slice(0, 6).map((item) => {

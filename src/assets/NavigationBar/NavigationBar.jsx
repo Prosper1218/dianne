@@ -9,12 +9,12 @@ import { motion } from 'framer-motion';
 
 const NavigationBar = () => {
     const [active, setactive] = useState("menu")
-    const [icon, seticon] = useState("icon")
+    // const [icon, seticon] = useState("icon")
 
     const togglenav = () => {
 
         active === "menu" ? setactive("menu active") : setactive("menu")
-        icon === "icon" ? seticon("icon icon2") : seticon("icon")
+        // icon === "icon" ? seticon("icon icon2") : seticon("icon")
     }
 
 
@@ -25,12 +25,12 @@ const NavigationBar = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{delay:0.2}}
+            transition={{ delay: 0.2 }}
 
         >
             <div >
                 <nav id='nav' >
-                    <Link to={"/"} id='Bcontainer'><img src={logo} alt="" className='w-[1.5rem]' /> <h2 id='brandName'>Dianne Russell</h2></Link>
+                    <Link to={"/"} id='Bcontainer' className='ml-4 sm:ml-4 '><img src={logo} alt="" className='w-[1.5rem]' /> <h2 id='brandName'>Dianne Russell</h2></Link>
                     <ul className={active} style={{ alignItems: "center" }}>
                         {links.map((link) => {
                             return <NavLink key={link.id} to={link.to} className={({ isActive, isPending }) => isActive ? "active-link" : null} >
@@ -55,8 +55,6 @@ import { Burger } from '@mantine/core';
 
 
 const Icon = () => {
-
-
 
     const [opened, { toggle }] = useDisclosure(false);
     const label = opened ? 'Close navigation' : 'Open navigation';

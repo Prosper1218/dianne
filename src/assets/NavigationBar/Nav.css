@@ -14,7 +14,7 @@
 }
 
 #Bcontainer {
-	padding-left: 1rem;
+	/* padding-left: 1rem; */
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
@@ -52,14 +52,13 @@
 	cursor: pointer;
 	border-radius: 3px;
 }
-#nav a.active-link{
+#nav a.active-link {
 	background-color: rgb(215, 215, 215);
 }
 
 #nav a:hover {
 	background-color: rgb(215, 215, 215);
 }
-
 
 #brandName {
 	text-decoration: none;
@@ -99,11 +98,11 @@
 	}
 	.menu {
 		background-color: white;
-		width: 100% !important;
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
-		margin-right: 1.5cm;
+		left: 0;
+		right: 0;
 		position: absolute;
 		top: 3.8rem;
 		height: auto;
@@ -135,9 +134,7 @@
 	#brandName {
 		font-size: 13px !important;
 	}
-	#Bcontainer {
-		padding-left: 1.rem;
-	}
+	
 }
 
 @media screen and (max-width: 283px) {

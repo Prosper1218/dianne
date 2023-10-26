@@ -50,6 +50,7 @@ const Carousel = () => {
                               whileInView={{ opacity: 1, y: 0 }}
                               exit={{ opacity: 0 }}
                               transition={{ delay: 0.1, duration: 0.7 }}
+                              
                          >
                               {Text[CurrentI]}
                          </motion.h1>
