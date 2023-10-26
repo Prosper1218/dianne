@@ -11,7 +11,7 @@ import EatingD from "../IMAGES/EatingD.webp";
 
 import mentalhealth from "../IMAGES/mentalHealth.webp";
 import Career1 from "../IMAGES/Career1.webp";
-import personalGrowth from "../IMAGES/Personalgrowth.webp";
+import personalgrowth from "../IMAGES/Personalgrowth.webp";
 import Parenting from "../IMAGES/Parenting.webp";
 import Relationships from "../IMAGES/Relationships.webp";
 import Therapy from "../IMAGES/Therapy.webp";
@@ -19,7 +19,7 @@ import dosdonts from "../IMAGES/dos&donts.webp";
 import lifepurpose from "../IMAGES/lifepurpose.webp";
 import relatiConflicts from "../IMAGES/relatiConflicts.webp";
 import workLbalance from "../IMAGES/workLbalance.webp";
-import SChild from "../IMAGES/SChild.webp";
+import schild from "../IMAGES/SChild.webp";
 import practices from "../IMAGES/5practices.webp";
 
 
@@ -82,7 +82,7 @@ export const journalD = [
      },
      {
           id: 6,
-          imgsrc: personalGrowth,
+          imgsrc: personalgrowth,
           title: "Personal Growth",
           content: "The power of positive thinking: How to develop a growth mindset",
           date: " Aug 15, 2023",
@@ -114,7 +114,7 @@ export const journalD = [
      },
      {
           id: 10,
-          imgsrc: SChild,
+          imgsrc: schild,
           title: "Parenthing",
           content: "Support your child's mental health: How to help them thrieve ",
           date: " Jul 1, 2023",
