@@ -11,7 +11,7 @@ import EatingD from "../IMAGES/EatingD.webp";
 
 import mentalhealth from "../IMAGES/mentalHealth.webp";
 import Career1 from "../IMAGES/Career1.webp";
-import personalGrowth from "../IMAGES/personalGrowth.webp";
+import personalGrowth from "../IMAGES/Personalgrowth.webp";
 import Parenting from "../IMAGES/Parenting.webp";
 import Relationships from "../IMAGES/Relationships.webp";
 import Therapy from "../IMAGES/Therapy.webp";
