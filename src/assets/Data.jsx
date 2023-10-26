@@ -11,7 +11,7 @@ import EatingD from "../IMAGES/EatingD.webp";
 
 import mentalhealth from "../IMAGES/mentalHealth.webp";
 import Career1 from "../IMAGES/Career1.webp";
-import personalgrowth from "../IMAGES/Personalgrowth.webp";
+import pgrowth from "../IMAGES/pgrowth.jpg";
 import Parenting from "../IMAGES/Parenting.webp";
 import Relationships from "../IMAGES/Relationships.webp";
 import Therapy from "../IMAGES/Therapy.webp";
@@ -82,7 +82,7 @@ export const journalD = [
      },
      {
           id: 6,
-          imgsrc: personalgrowth,
+          imgsrc: pgrowth,
           title: "Personal Growth",
           content: "The power of positive thinking: How to develop a growth mindset",
           date: " Aug 15, 2023",
